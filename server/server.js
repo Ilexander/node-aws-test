@@ -6,8 +6,6 @@ app.use(express.json());
 
 app.get("/test", (req, res) => {
   res.send({
-    name: "Mashka",
-    surname: "Gulenko",
     login: "marikotoo",
     password: "0:37",
   });
